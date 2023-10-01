@@ -1,0 +1,29 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.height {
+  background-color: var(--surface-container-low);
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 50px;
+  border-radius: 50px;
+}
+
+h1,
+p {
+  margin-bottom: 25px;
+}
+
+h1,
+p,
+span {
+  text-align: center;
+}
