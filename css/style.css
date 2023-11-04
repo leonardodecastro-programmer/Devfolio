@@ -315,7 +315,6 @@ body {
 	font-weight: var(--weight-medium);
 	line-height: 20px;
 	letter-spacing: 0.1px;
-	white-space: nowrap;
 }
 
 .label-medium {
@@ -616,7 +615,7 @@ body {
 
 .hero .btn-wrapper {
 	display: flex;
-	flex: wrap;
+	flex-wrap: wrap;
 	gap: 8px;
 }
 
